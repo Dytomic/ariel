@@ -6,7 +6,7 @@ _Please note that this repo's code is very simple work and acts as a reminder to
 
 This repository contains the code for a simple Facebook chatbot developed for Dytomic's Facebook page, designed to engage with users and provide information about job opportunities at Dytomic and details about Pirate Raids Online.
 
-The project is named "Ariel" in memory of our co-founder's beloved dog that passed away several years ago. A tribute to this furry companion and serves as a reminder of the co-founder's cherished memories with their canine friend.
+This is named "Ariel" in memory of our co-founder's beloved dog that passed away several years ago. A tribute to this furry companion and serves as a reminder of the co-founder's cherished memories with their canine friend.
 
 <p align="center">
   <img src="./ariel.jpg" width=256 />
@@ -64,4 +64,4 @@ The repository contains the following files and folders:
 
 ## License
 
-This project is licensed under the MIT License.
+This is licensed under the MIT License.
