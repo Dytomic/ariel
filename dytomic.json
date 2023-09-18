@@ -1,0 +1,117 @@
+{
+  "intents": {
+    "welcome": {
+      "examples": [
+        "Get Started",
+        "Hi",
+        "Hello",
+        "Hey"
+      ]
+    }
+  },
+  "responses": {
+    "welcome": {
+      "text": [
+        "Hello, welcome to the official Dytomic Facebook page! My name is Ariel and I’m here to guide you through our various work opportunities available at our startup video game development and publishing company."
+      ],
+      "connect": "Work Question 1"
+    },
+    "Work Question 1": {
+      "text": [
+        "Are you currently searching for work opportunities in the video game industry?"
+      ],
+      "buttons": [
+        {
+          "type": "postback",
+          "title": "Yes",
+          "payload": "Work Question 2"
+        },
+        {
+          "type": "postback",
+          "title": "No",
+          "payload": "Promotion Message 1"
+        }
+      ]
+    },
+    "Work Question 2": {
+      "text": [
+        "Our expanding video game development team is composed of highly talented and diverse individuals with a tremendous passion for creating ‘high level’ games and we are constantly searching for ambitious people with a similar vision to join the Dytomic family! Select the job title that best fits your skillset so we can get started."
+      ],
+      "buttons": [
+        {
+          "type": "postback",
+          "title": "Digital Artist",
+          "payload": "Digital Artist"
+        },
+        {
+          "type": "postback",
+          "title": "Game Designer",
+          "payload": "Game Designer"
+        }
+      ]
+    },
+    "Promotion Message 1": {
+      "text": [
+        "Follow us on Facebook and Instagram to keep up with our latest news on services, development, and opportunities at our company!"
+      ],
+      "buttons": [
+        {
+          "type": "web_url",
+          "url": "https://www.instagram.com/dytomic.official/",
+          "title": "Instagram"
+        }
+      ],
+      "connect": "Promotion Message 2"
+    },
+    "Promotion Message 2": {
+      "text": [
+        "Follow Pirate Raids Online to keep up with our latest updates on our most exciting and largest MMORPG project currently in development!"
+      ],
+      "buttons": [
+        {
+          "type": "web_url",
+          "url": "https://www.instagram.com/pirateraids.online/",
+          "title": "Instagram"
+        },
+        {
+          "type": "web_url",
+          "url": "https://www.facebook.com/pirateraids.online/",
+          "title": "Facebook"
+        }
+      ],
+      "connect": "Promotion Message 2"
+    },
+    "Digital Artist": {
+      "text": [
+        "Have you worked as a digital artist in a video game company before?"
+      ],
+      "buttons": [
+        {
+          "type": "postback",
+          "title": "Yes",
+          "payload": "Artist Message 1"
+        },
+        {
+          "type": "postback",
+          "title": "No",
+          "payload": "Artist Message 2"
+        }
+      ]
+    },
+    "Game Designer": {
+      "text": [
+        "Looking to expand your game design prowess into the ever-growing, complex world of MMORPG style games? Then we have the perfect opportunity for you! Visit https://dytomic.com/future-builder to find out more!"
+      ]
+    },
+    "Artist Message 1": {
+      "text": [
+        "Let me direct you to our website that will show you our current job opportunities for digital artists at Dytomic. Visit https://dytomic.com/job-offers to find out more!"
+      ]
+    },
+    "Artist Message 2": {
+      "text": [
+        "Let me direct you to our website where you can find out more on our Future Builder internship programs at Dytomic. Visit https://dytomic.com/future-builder to find out more!"
+      ]
+    }
+  }
+}

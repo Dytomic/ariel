@@ -1,0 +1,178 @@
+{
+  "intents": {
+    "welcome": {
+      "examples": [
+        "Get Started",
+        "Hi",
+        "Hello",
+        "Hey"
+      ]
+    }
+  },
+  "responses": {
+    "welcome": {
+      "text": [
+        "Welcome to Pirate Raids Online, a free-to-play pirate themed fantasy MMORPG for PC currently in development. My name is Ariel and I'm here to serve you as your guide throughout your journey in Pirate Raids Online!"
+      ],
+      "buttons": [
+        {
+          "type": "postback",
+          "title": "About Game",
+          "payload": "Game Message 1"
+        },
+        {
+          "type": "web_url",
+          "url": "https://discord.gg/zSrZpZPPR7",
+          "title": "Discord"
+        },
+        {
+          "type": "web_url",
+          "url": "https://www.instagram.com/pirateraids.online/",
+          "title": "Instagram"
+        }
+      ]
+    },
+    "Game Message 1": {
+      "text": [
+        "Bringing back nostalgia from the good old days of MMOs, Pirate Raids Online features the huge open world of Ascaron filled with a vast amount of captivating PVE and PVP content waiting to be explored on both land and sea. Select a game feature you would like to find out more about!"
+      ],
+      "quick_replies": [
+        {
+          "content_type":"text",
+          "title": "Class System",
+          "payload": "Class Message"
+        },
+        {
+          "content_type":"text",
+          "title": "Ship System",
+          "payload": "Ship Message"
+        },
+        {
+          "content_type":"text",
+          "title": "Character Races",
+          "payload": "Character Message"
+        },
+        {
+          "content_type":"text",
+          "title": "Game Economy",
+          "payload": "Economy Message"
+        }
+      ]
+    },
+    "Class Message": {
+      "text": [
+        "PRO will feature a fully classless system with more than 16 unique weapon types to explore as well as a plethora of distinct gear to equip in an effort to create your own special build that supports endless opportunities. In addition, as you increase your character's combat level, you will obtain spell points that can be allocated towards learning unique melee, range, or magic abilities. Follow our social media to stay tuned with updates and early game subscriptions!"
+      ],
+      "buttons": [
+        {
+          "type": "postback",
+          "title": "Other Features",
+          "payload": "Game Message 2"
+        },
+        {
+          "type": "web_url",
+          "url": "https://discord.gg/zSrZpZPPR7",
+          "title": "Discord"
+        },
+        {
+          "type": "web_url",
+          "url": "https://www.instagram.com/pirateraids.online/",
+          "title": "Instagram"
+        }
+      ]
+    },
+    "Ship Message": {
+      "text": [
+        "In Pirate Raids Online, you'll be able to build, name, and customize your very own ship with unique styles specific to each character race. In addition, your ship can be leveled up by gaining experience through various PVE and PVP adventures on sea which allows you to continuously upgrade your ship with specialized crew members, unique ship abilities, and more. Follow our social media to stay tuned with updates and early game subscriptions!"
+      ],
+      "buttons": [
+        {
+          "type": "postback",
+          "title": "Other Features",
+          "payload": "Game Message 2"
+        },
+        {
+          "type": "web_url",
+          "url": "https://discord.gg/zSrZpZPPR7",
+          "title": "Discord"
+        },
+        {
+          "type": "web_url",
+          "url": "https://www.instagram.com/pirateraids.online/",
+          "title": "Instagram"
+        }
+      ]
+    },
+    "Character Message": {
+      "text": [
+        "Select your main character from 4 unique pirate character races available in both male and female versions. In addition, you will be able to customize your character to your preference with awesome hairstyles, beard styles, skin tones, and body morphology selections. Follow our social media to stay tuned with updates and early game subscriptions!"
+      ],
+      "buttons": [
+        {
+          "type": "postback",
+          "title": "Other Features",
+          "payload": "Game Message 2"
+        },
+        {
+          "type": "web_url",
+          "url": "https://discord.gg/zSrZpZPPR7",
+          "title": "Discord"
+        },
+        {
+          "type": "web_url",
+          "url": "https://www.instagram.com/pirateraids.online/",
+          "title": "Instagram"
+        }
+      ]
+    },
+    "Economy Message": {
+      "text": [
+        "Pirate Raids Online features a player-driven economy reinforced by several life skills including woodcutting, mining, and fishing as your primary skills followed by cooking, smelting, crafting, lumberjacking, construction, mercenary, salvaging, and animal taming as specialized skills! You'll also be able to trade goods with other players easily at the Pirate Exchange where you can list items for sale, purchase items listed by others, and participate in auctions. Follow our social media to stay tuned with updates and early game subscriptions!"
+      ],
+      "buttons": [
+        {
+          "type": "postback",
+          "title": "Other Features",
+          "payload": "Game Message 2"
+        },
+        {
+          "type": "web_url",
+          "url": "https://discord.gg/zSrZpZPPR7",
+          "title": "Discord"
+        },
+        {
+          "type": "web_url",
+          "url": "https://www.instagram.com/pirateraids.online/",
+          "title": "Instagram"
+        }
+      ]
+    },
+    "Game Message 2": {
+      "text": [
+        "Interested in learning about some other concepts featured in Pirate Raids Online?"
+      ],
+      "quick_replies": [
+        {
+          "content_type":"text",
+          "title": "Class System",
+          "payload": "Class Message"
+        },
+        {
+          "content_type":"text",
+          "title": "Ship System",
+          "payload": "Ship Message"
+        },
+        {
+          "content_type":"text",
+          "title": "Character Races",
+          "payload": "Character Message"
+        },
+        {
+          "content_type":"text",
+          "title": "Game Economy",
+          "payload": "Economy Message"
+        }
+      ]
+    }
+  }
+}
