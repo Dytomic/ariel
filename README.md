@@ -21,7 +21,11 @@ This is named "Ariel" in memory of our co-founder's beloved dog that passed away
 - **Game Details**: The chatbot offers information about Pirate Raids Online, including its features, gameplay mechanics, and development progress.
 
 - And more...
-  
+
+## Demo
+
+A screen recording of Ariel in action, originally submitted as part of the Facebook App Review process, is included in this repo as [`ariel.wmv`](./ariel.wmv).
+
 ## Usage
 
 To use the Dytomic Facebook Chatbot, follow these steps:
@@ -61,6 +65,10 @@ The repository contains the following files and folders:
 **Design Files:**
 
 - **design**: Folder containing DrawIO designs for the conversation tree.
+
+**Demo Files:**
+
+- **ariel.wmv**: Screen recording of the chatbot in action, originally submitted for Facebook App Review.
 
 ## License
 
